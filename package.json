@@ -1,0 +1,15 @@
+{
+  "name": "mongoDb-native-driver",
+  "version": "1.0.0",
+  "description": "Using mongoDB native driver as an introduction to using mongoDB on our projects.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harold F.",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.9"
+  }
+}
