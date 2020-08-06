@@ -22,16 +22,16 @@ client.connect(function(err) {
   const db = client.db(dbName);
 
   // After adding documents this line of code gets added to client.connect
-  // insertDocuments(db, function(){
-  //   client.close();
-  // });
+  insertDocuments(db, function(){
+    client.close();
+  });
 
   // client.close();
 
   // Adding code to find all the documents after they have been Inserted
-  findDocuments(db, function(){
-      client.close();
-  });
+  // findDocuments(db, function(){
+  //     client.close();
+  // });
 
 });
 
